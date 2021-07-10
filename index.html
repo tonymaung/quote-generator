@@ -5,12 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="quotation-marks-in-speech-bubble.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f181fe1685.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Quotes Generator</title>
 </head>
 <body>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote Elemet -->
+        <div class="quote-text">
+            <!-- Adjust Quote fonts inside -->
+            <i class="fas fa-quote-left"></i>
+            <!-- Quote Icon -->
+            <span id="quote">
+                What are you is what you have been. What you'll be is what you do.
+            </span>
+            <!-- Quote Inside Functionality will come later -->
+        </div>
+        <!-- Quote author element -->
+        <div class="quote-author">
+            <span id="author">
+                Buddha
+            </span>
+            <!--  Functionality will come later for author -->
+        </div>
+        <!-- Buttons container -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="tweet this">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">
+                New Quote
+            </button>
+        </div>
+    </div>
 
-    
     <script src="script.js"></script>
 </body>
 </html>
