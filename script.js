@@ -15,7 +15,6 @@ function newQuote() {
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)]; //
   // check author is Unknown
   if (!quote.author) {
-    console.log("Yes");
     authorText.textContent = "Unknown";
   } else {
     authorText.textContent = quote.author;
